@@ -47,8 +47,8 @@ const server = http.createServer(function(req, res) {
         res.end();
     }
     else {
-        response.writeHead(404);
-        response.end();
+        res.writeHead(404);
+        res.end();
     }
 });
 
